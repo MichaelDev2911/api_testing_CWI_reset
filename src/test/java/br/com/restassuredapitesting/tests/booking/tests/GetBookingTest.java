@@ -1,12 +1,13 @@
 package br.com.restassuredapitesting.tests.booking.tests;
 
+import br.com.restassuredapitesting.base.BaseTest;
 import br.com.restassuredapitesting.suites.AllTests;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-public class GetBookingTest {
+public class GetBookingTest extends BaseTest {
 
     @Test
     @Category({AllTests.class})
