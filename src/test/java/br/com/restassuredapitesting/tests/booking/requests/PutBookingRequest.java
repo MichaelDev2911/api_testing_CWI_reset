@@ -8,18 +8,16 @@ import static io.restassured.RestAssured.given;
 
 public class PutBookingRequest {
 
-    String validBooking = BookingPayloads.payloadValidBooking().toString();
-
     public PutBookingRequest() throws JSONException {
     }
 
-    public Response updateBookingToken(int id,String token){
+    public Response updateBookingToken(int id,String token) throws JSONException {
         return  given()
                 .header("Content-Type","application/json")
                 .header("Accept","application/json")
                 .header("Cookie",token)
                 .when()
-                .body(validBooking)
+                .body(BookingPayloads.payloadValidBooking().toString())
                 .put("booking/"+ id);
     }
 }

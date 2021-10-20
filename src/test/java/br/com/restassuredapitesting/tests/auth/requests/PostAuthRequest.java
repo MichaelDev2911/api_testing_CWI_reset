@@ -23,7 +23,7 @@ public class PostAuthRequest {
     }
 
     public String getToken() throws JSONException {
-        return "token"+this.tokenReturn()
+        return "token="+this.tokenReturn()
                 .then()
                 .statusCode(200)
                 .extract()
