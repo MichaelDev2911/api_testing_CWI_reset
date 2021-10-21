@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffdde5ca-686d-491a-8c8d-288cf3b213cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="288">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SmokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,76 +42,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/schema/bookings.json">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="35" column="81" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/payloads/BookingPayloads.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/requests/PostAuthRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/requests/payloads/AuthPayloads.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AcceptanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SmokeTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/ContractTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -120,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -140,10 +150,8 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/t/GetPingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/A.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/requests/GetPingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/requests/payloads/AuthPayloads.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/tests/GetPingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/requests/GetPingRequest.java" />
@@ -154,8 +162,16 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/schemas/bookings-json" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/schemas/bookings.json" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SmokeTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AccpetanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" />
       </list>
     </option>
   </component>
@@ -221,6 +237,45 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,15 +310,6 @@
               <item name="booking" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -274,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634827004881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634844960133" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -295,22 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetBookingTest.validaSchemaDaListagemDeReservas">
-    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassuredapitesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.restassuredapitesting.runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.runners" />
-      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.runners.AllTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SmokeTests">
     <configuration name="GetBookingTest.validaListagemDeIdsReservas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
@@ -375,13 +406,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassuredapitesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.restassuredapitesting.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.runners" />
+      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.runners.SmokeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmokeTests" />
         <item itemvalue="JUnit.GetBookingTest.validaSchemaDaListagemDeReservas" />
         <item itemvalue="JUnit.PutBookingTest.validarAlateracaoDeUmaReservaUtilizandoToken" />
         <item itemvalue="JUnit.GetBookingTest.validaListagemDeIdsReservas" />
         <item itemvalue="JUnit.PostAuthTest.validaRetornoDeTokenParaUsuario" />
-        <item itemvalue="JUnit.AllTests" />
       </list>
     </recent_temporary>
   </component>
@@ -397,17 +443,11 @@
       <updated>1634680920547</updated>
       <workItem from="1634680925882" duration="12551000" />
       <workItem from="1634724991937" duration="9422000" />
-      <workItem from="1634821357460" duration="3790000" />
+      <workItem from="1634821357460" duration="6057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PutBookingTest_validarAlateracaoDeUmaReservaUtilizandoToken - 2021.10.20 at 11h 29m 40s.xml">
-      <configuration name="PutBookingTest.validarAlateracaoDeUmaReservaUtilizandoToken" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PutBookingTest_validarAlateracaoDeUmaReservaUtilizandoToken - 2021.10.20 at 11h 30m 55s.xml">
-      <configuration name="PutBookingTest.validarAlateracaoDeUmaReservaUtilizandoToken" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PutBookingTest_validarAlateracaoDeUmaReservaUtilizandoToken - 2021.10.20 at 11h 31m 52s.xml">
       <configuration name="PutBookingTest.validarAlateracaoDeUmaReservaUtilizandoToken" configurationId="JUnit" />
     </history-entry>
@@ -432,9 +472,15 @@
     <history-entry file="GetBookingTest_validaSchemaDaListagemDeReservas - 2021.10.21 at 12h 26m 57s.xml">
       <configuration name="GetBookingTest.validaSchemaDaListagemDeReservas" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetBookingTest_validaSchemaDaListagemDeReservas - 2021.10.21 at 12h 36m 49s.xml">
+      <configuration name="GetBookingTest.validaSchemaDaListagemDeReservas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTests - 2021.10.21 at 17h 30m 37s.xml">
+      <configuration name="SmokeTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25763000" />
+    <option name="totallyTimeSpent" value="28030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -478,23 +524,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ClasseDeTeste.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/A.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/tests/GetPingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -523,16 +552,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,10 +687,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="35" column="81" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+        <state relative-caret-position="288">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/ContractTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SmokeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SmokeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
