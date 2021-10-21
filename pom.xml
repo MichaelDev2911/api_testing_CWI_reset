@@ -12,6 +12,7 @@
        <junit.version>4.12</junit.version>
        <rest-assured.version>3.1.0</rest-assured.version>
        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+       <json-schema-validator.version>4.3.0</json-schema-validator.version>
 
    </properties>
 
@@ -34,6 +35,12 @@
             <version>0.0.20131108.vaadin1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>${json-schema-validator.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
