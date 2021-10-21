@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffdde5ca-686d-491a-8c8d-288cf3b213cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/restassuredapitesting.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SmokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,14 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3586">
+              <caret line="163" column="10" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -69,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/schemas/bookings-json" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/schemas/bookings.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AllTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java" />
@@ -172,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -320,7 +314,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634844960133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634846482178" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../treinamentoautomacao2021" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -341,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTests">
+  <component name="RunManager" selected="Maven.Relatório">
     <configuration name="GetBookingTest.validaListagemDeIdsReservas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
@@ -421,6 +416,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContractTeste" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="-Dtest=ContractTests" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Relatório" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="allure:serve" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GetBookingTest.validaListagemDeIdsReservas" />
+      <item itemvalue="JUnit.GetBookingTest.validaSchemaDaListagemDeReservas" />
+      <item itemvalue="JUnit.PostAuthTest.validaRetornoDeTokenParaUsuario" />
+      <item itemvalue="JUnit.PutBookingTest.validarAlateracaoDeUmaReservaUtilizandoToken" />
+      <item itemvalue="JUnit.SmokeTests" />
+      <item itemvalue="Maven.Relatório" />
+      <item itemvalue="Maven.ContractTeste" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SmokeTests" />
@@ -443,7 +499,7 @@
       <updated>1634680920547</updated>
       <workItem from="1634680925882" duration="12551000" />
       <workItem from="1634724991937" duration="9422000" />
-      <workItem from="1634821357460" duration="6057000" />
+      <workItem from="1634821357460" duration="7326000" />
     </task>
     <servers />
   </component>
@@ -480,13 +536,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28030000" />
+    <option name="totallyTimeSpent" value="29299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,7 +551,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31723028" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31723028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -734,7 +783,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,7 +820,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -784,11 +833,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3586">
+          <caret line="163" column="10" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
         </state>
       </provider>
     </entry>
