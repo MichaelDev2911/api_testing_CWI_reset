@@ -21,4 +21,37 @@ public class GetBookingRequest {
                 .when()
                 .get("booking/" +id);
     }
+
+    @Step("Retorna Id da Busca Pelo Primeiro Nome")
+    public Response bookingReturnedByFirstName(String name){
+        return given()
+                .header("Accept","application/json")
+                .when()
+                .get("booking?firstname=" +name);
+    }
+
+    @Step("Retorna Id da Busca Pelo Sobrenome Nome")
+    public Response bookingReturnedByLastName(String name){
+        return given()
+                .header("Accept","application/json")
+                .when()
+                .get("booking?lastname=" +name);
+    }
+
+    @Step("Retorna Id da Busca Pela data de checkin ")
+    public Response bookingReturnIdsByCheckinDate(String date){
+        return given()
+                .header("Accept","application/json")
+                .when()
+                .get("booking?checkin=" +date);
+    }
+
+    @Step("Retorna Id da Busca Pela data de checkin ")
+    public Response bookingReturnIdsByCheckoutDate(String date){
+        return given()
+                .header("Accept","application/json")
+                .when()
+                .get("booking?checkout=" +date);
+    }
+
 }
