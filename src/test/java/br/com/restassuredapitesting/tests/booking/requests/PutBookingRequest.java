@@ -8,7 +8,7 @@ import org.json.JSONException;
 import static io.restassured.RestAssured.given;
 
 public class PutBookingRequest {
-
+String auth = "Basic YWRtaW46cGFzc3dvcmQxMjM=";
     public PutBookingRequest() throws JSONException {
     }
 
@@ -18,6 +18,17 @@ public class PutBookingRequest {
                 .header("Content-Type","application/json")
                 .header("Accept","application/json")
                 .header("Cookie",token)
+                .when()
+                .body(BookingPayloads.payloadValidBooking().toString())
+                .put("booking/"+ id);
+    }
+
+    @Step("Atualiza uma reserva específica com o parâmetro Basic auth")
+    public Response updateBookingBasicAuth(int id) throws JSONException {
+        return  given()
+                .header("Content-Type","application/json")
+                .header("Accept","application/json")
+                .header("Authorization",auth)
                 .when()
                 .body(BookingPayloads.payloadValidBooking().toString())
                 .put("booking/"+ id);
