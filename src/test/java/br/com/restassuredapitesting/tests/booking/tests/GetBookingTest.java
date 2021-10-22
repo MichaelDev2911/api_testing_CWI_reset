@@ -23,7 +23,7 @@ public class GetBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class})
+    @Category({AllTests.class,AcceptanceTest.class})
     @DisplayName("Listar Ids de reservas")
     public void validaListagemDeIdsReservas() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
@@ -36,7 +36,7 @@ public class GetBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class})
+    @Category({AllTests.class,AcceptanceTest.class})
     @DisplayName("Listar uma reserva específica por id")
     public void validaRetornoDeUmaReservaEspecifica() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
