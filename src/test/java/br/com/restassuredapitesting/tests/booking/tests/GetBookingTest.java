@@ -55,7 +55,7 @@ public class GetBookingTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, AcceptanceTest.class})
-    @DisplayName("Listar uma reserva específica elo primeiro nome")
+    @DisplayName("Listar Ids de reservas pelo primeiro nome")
     public void validaRetornoDeUmIdPeloPrimeiroNome() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
         int primeiroId = getBookingRequest.bookingReturnIds()
@@ -82,7 +82,7 @@ public class GetBookingTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, AcceptanceTest.class})
-    @DisplayName("Listar uma reserva específica pelo sobrenome nome")
+    @DisplayName("Listar Ids de reservas pelo sobrenome")
     public void validaRetornoDeUmIdPeloSobrenomeNome() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
         int primeiroId = getBookingRequest.bookingReturnIds()
@@ -154,7 +154,84 @@ public class GetBookingTest extends BaseTest {
                 .then()
                 .statusCode(200)
                 .body("bookingid", Matchers.hasItem(5))
-                .body("[0].bookingid", Matchers.greaterThanOrEqualTo(1));
+                .body("[0].bookingid", Matchers.greaterThanOrEqualTo(0));
+
+    }
+
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    @Category({AllTests.class, AcceptanceTest.class})
+    @DisplayName("Lista os Ids Buscando pela data de checkout and checkout")
+    public void validaRetornoDeIdspelaDataDeCheckoutAndChechout() {
+        GetBookingRequest getBookingRequest = new GetBookingRequest();
+        int primeiroId = getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[7].bookingid");
+
+        String checkoutDate = getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("bookingdates.checkout");
+        System.out.println(checkoutDate);
+
+        int segundoId = getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[0].bookingid");
+
+        String checkoutDateTwo = getBookingRequest.bookingReturnedById(segundoId)
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("bookingdates.checkout");
+        System.out.println(checkoutDate);
+
+        getBookingRequest.bookingReturnIdsByCheckoutAndCheckout(checkoutDate,checkoutDateTwo)
+                .then()
+                .statusCode(200)
+                .body("bookingid", Matchers.hasItem(5))
+                .body("[0].bookingid", Matchers.greaterThanOrEqualTo(0));
+
+    }
+
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    @Category({AllTests.class, AcceptanceTest.class})
+    @DisplayName("Listar Ids de reservas pelo nome,checkin,checkout")
+    public void validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout() {
+        GetBookingRequest getBookingRequest = new GetBookingRequest();
+        int primeiroId = getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[1].bookingid");
+
+        String firstname = getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("firstname");
+        String checkin = getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("bookingdates.checkin");
+        String checkout = getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("bookingdates.checkout");
+
+
+        getBookingRequest.bookingReturnIdsByFirstNameAndCheckoutAndCheckout(firstname,checkin,checkout)
+                .then()
+                .statusCode(200)
+                .body("bookingid", Matchers.hasItem(6))
+                .body("[0].bookingid", Matchers.greaterThanOrEqualTo(0));
 
     }
 

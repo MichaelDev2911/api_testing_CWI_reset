@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ffdde5ca-686d-491a-8c8d-288cf3b213cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,9 +18,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="127">
               <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,20 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/DeleteBookingRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="792">
+              <caret line="233" column="70" selection-start-line="233" selection-start-column="70" selection-end-line="233" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="485">
               <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+            <state relative-caret-position="206">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AccpetanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/SecurityTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/requests/PostAuthRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/requests/GetPingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" />
@@ -185,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/DeleteBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
       </list>
@@ -378,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634929653150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634938608016" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testes-integracao-unitarios" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,8 +400,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckout">
-    <configuration name="DeleteBookingTest.deletaUmaReservaEspecifica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetBookingTest.validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout">
+    <configuration name="GetBookingTest.validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
         <pattern>
@@ -410,8 +410,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
-      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.DeleteBookingTest" />
-      <option name="METHOD_NAME" value="deletaUmaReservaEspecifica" />
+      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
+      <option name="METHOD_NAME" value="validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -449,7 +449,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingTest.validaRetornoDeUmIdPeloPrimeiroNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetBookingTest.validaRetornoDeIdspelaDataDeCheckoutAndChechout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
         <pattern>
@@ -459,13 +459,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
       <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
-      <option name="METHOD_NAME" value="validaRetornoDeUmIdPeloPrimeiroNome" />
+      <option name="METHOD_NAME" value="validaRetornoDeIdspelaDataDeCheckoutAndChechout" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PutBookingTest.validarAlteracaoDeUmaReservaUtilizandoToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
         <pattern>
@@ -474,8 +474,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
-      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
-      <option name="METHOD_NAME" value="validaRetornoDeUmIdPeloSobrenomeNome" />
+      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.PutBookingTest" />
+      <option name="METHOD_NAME" value="validarAlteracaoDeUmaReservaUtilizandoToken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -564,19 +564,19 @@
       <item itemvalue="Maven.Relatório" />
       <item itemvalue="Maven.AllTests" />
       <item itemvalue="Maven.ContractTeste" />
-      <item itemvalue="JUnit.DeleteBookingTest.deletaUmaReservaEspecifica" />
-      <item itemvalue="JUnit.GetBookingTest.validaRetornoDeUmIdPeloPrimeiroNome" />
-      <item itemvalue="JUnit.GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" />
       <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckin" />
       <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckout" />
+      <item itemvalue="JUnit.PutBookingTest.validarAlteracaoDeUmaReservaUtilizandoToken" />
+      <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckoutAndChechout" />
+      <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdsPeloPrimeiroNomeAndCheckinAndCheckout" />
+        <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckoutAndChechout" />
+        <item itemvalue="JUnit.PutBookingTest.validarAlteracaoDeUmaReservaUtilizandoToken" />
         <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckout" />
         <item itemvalue="JUnit.GetBookingTest.validaRetornoDeIdspelaDataDeCheckin" />
-        <item itemvalue="JUnit.GetBookingTest.validaRetornoDeUmIdPeloPrimeiroNome" />
-        <item itemvalue="JUnit.GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" />
-        <item itemvalue="JUnit.DeleteBookingTest.deletaUmaReservaEspecifica" />
       </list>
     </recent_temporary>
   </component>
@@ -593,17 +593,11 @@
       <workItem from="1634680925882" duration="12551000" />
       <workItem from="1634724991937" duration="9422000" />
       <workItem from="1634821357460" duration="11486000" />
-      <workItem from="1634901301112" duration="16262000" />
+      <workItem from="1634901301112" duration="19628000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetBookingTest_validaRetornoDeUmIdPeloSobrenomeNome - 2021.10.22 at 13h 44m 08s.xml">
-      <configuration name="GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetBookingTest_validaRetornoDeUmIdPeloSobrenomeNome - 2021.10.22 at 13h 45m 34s.xml">
-      <configuration name="GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetBookingTest_validaRetornoDeUmIdPeloSobrenomeNome - 2021.10.22 at 13h 46m 16s.xml">
       <configuration name="GetBookingTest.validaRetornoDeUmIdPeloSobrenomeNome" configurationId="JUnit" />
     </history-entry>
@@ -628,15 +622,21 @@
     <history-entry file="GetBookingTest_validaRetornoDeIdspelaDataDeCheckout - 2021.10.22 at 17h 07m 01s.xml">
       <configuration name="GetBookingTest.validaRetornoDeIdspelaDataDeCheckout" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PutBookingTest_validarAlteracaoDeUmaReservaUtilizandoToken - 2021.10.22 at 17h 27m 08s.xml">
+      <configuration name="PutBookingTest.validarAlteracaoDeUmaReservaUtilizandoToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetBookingTest_validaRetornoDeIdspelaDataDeCheckoutAndChechout - 2021.10.22 at 19h 13m 34s.xml">
+      <configuration name="GetBookingTest.validaRetornoDeIdspelaDataDeCheckoutAndChechout" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49721000" />
+    <option name="totallyTimeSpent" value="53087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -645,7 +645,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30917874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30806452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -866,30 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/payloads/BookingPayloads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -945,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="485">
           <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -963,10 +943,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PutBookingRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/GetBookingRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        <state relative-caret-position="206">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+        <state relative-caret-position="792">
+          <caret line="233" column="70" selection-start-line="233" selection-start-column="70" selection-end-line="233" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
