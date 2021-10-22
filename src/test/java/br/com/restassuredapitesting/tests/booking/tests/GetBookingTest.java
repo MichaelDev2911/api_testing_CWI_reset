@@ -31,6 +31,25 @@ public class GetBookingTest extends BaseTest {
                 .statusCode(200)
                 .body("size()", Matchers.greaterThan(0));
     }
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    @Category({AllTests.class})
+    @DisplayName("Listar uma reserva específica por id")
+    public void validaRetornoDeUmaReservaEspecifica(){
+        GetBookingRequest getBookingRequest = new GetBookingRequest();
+        int primeiroId = getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[0].bookingid");
+
+        getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .body("size()",Matchers.greaterThanOrEqualTo(1));
+
+
+    }
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
@@ -43,5 +62,23 @@ public class GetBookingTest extends BaseTest {
                 .then()
                 .statusCode(200)
                 .body(matchesJsonSchema(new File(Utils.getSchemaBasePath("booking","bookings"))));
+    }
+
+    @Test
+    @Severity(SeverityLevel.BLOCKER)
+    @Category({AllTests.class, ContractTests.class})
+    @DisplayName("Garantir o schema de retorno de uma reserva específica")
+    public void validaSchemaDaBuscaDeUmaReservaEspicifica() {
+        GetBookingRequest getBookingRequest = new GetBookingRequest();
+        int primeiroId = getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[0].bookingid");
+
+        getBookingRequest.bookingReturnedById(primeiroId)
+                .then()
+                .statusCode(200)
+                .body(matchesJsonSchema(new File(Utils.getSchemaBasePath("booking","bookingbyid"))));
     }
 }

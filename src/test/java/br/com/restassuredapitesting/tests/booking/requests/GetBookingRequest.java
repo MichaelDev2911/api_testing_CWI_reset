@@ -13,4 +13,12 @@ public class GetBookingRequest {
                 .when()
                 .get("booking");
     }
+
+    @Step("Retorna uma reserva específica")
+    public Response bookingReturnedById(int id){
+        return given()
+                .header("Accept","application/json")
+                .when()
+                .get("booking/" +id);
+    }
 }
