@@ -54,7 +54,7 @@ public class DeleteBookingTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, E2eTests.class})
-    @DisplayName("Deletar uma reserva com sucesso")
+    @DisplayName("Deletar uma reserva sem autenticação")
     public void tryToDeleteReservationWithoutAuthentication() {
 
         deleteBookingRequest.bookingDeletedByIdNoAuthentication(8)
