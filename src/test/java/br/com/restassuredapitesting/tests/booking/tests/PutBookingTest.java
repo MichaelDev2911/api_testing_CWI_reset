@@ -10,12 +10,14 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.junit4.DisplayName;
-import org.hamcrest.Matchers;
 import org.json.JSONException;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+
+import static org.hamcrest.Matchers.greaterThan;
+
 @Feature(" Feature de Atualização de Reservas ")
-public class PutBookingTest extends BaseTest  {
+public class PutBookingTest extends BaseTest {
 
     PutBookingRequest putBookingRequest = new PutBookingRequest();
     GetBookingRequest getBookingRequest = new GetBookingRequest();
@@ -26,9 +28,9 @@ public class PutBookingTest extends BaseTest  {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @Category({AllTests.class,AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o token")
-    public void validarAlteracaoDeUmaReservaUtilizandoToken() throws JSONException {
+    public void validatesChangeOfAReservationUsingToken() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()
                 .then()
                 .statusCode(200)
@@ -38,14 +40,14 @@ public class PutBookingTest extends BaseTest  {
         putBookingRequest.updateBookingToken(primeiroId, postAuthRequest.getToken())
                 .then()
                 .statusCode(200)
-                .body("size()", Matchers.greaterThan(0));
+                .body("size()", greaterThan(0));
     }
 
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o Autorização Basic auth")
-    public void validarAlteracaoDeUmaReservaUtilizandoBasicAuth() throws JSONException {
+    public void validatesChangeOfAReservationUsingBasicAuth() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()
                 .then()
                 .statusCode(200)
@@ -55,16 +57,16 @@ public class PutBookingTest extends BaseTest  {
         putBookingRequest.updateBookingBasicAuth(primeiroId)
                 .then()
                 .statusCode(200)
-                .body("size()", Matchers.greaterThan(0));
+                .body("size()", greaterThan(0));
 
 
     }
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @Category({AllTests.class,AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva , sem o token")
-    public void validarAlteracaoDeUmaReservaSemToken() throws JSONException {
+    public void validatesChangeOfAReservationWithoutToken() throws JSONException {
 
         putBookingRequest.updateBookingWithoutToken(buscaIdBooking())
                 .then()
@@ -74,9 +76,9 @@ public class PutBookingTest extends BaseTest  {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @Category({AllTests.class,AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o token errado")
-    public void validarAlteracaoDeUmaReservaUtilizandoTokenWrong() throws JSONException {
+    public void validatesChangeOfAReservationWithWrongToken() throws JSONException {
 
         putBookingRequest.updateBookingToken(buscaIdBooking(), "esseVaiDarErro")
                 .then()
@@ -85,9 +87,9 @@ public class PutBookingTest extends BaseTest  {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @Category({AllTests.class,AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva caso id não exista")
-    public void validarAlteracaoDeUmaReservaQueNaoExiste() throws JSONException {
+    public void validatesChangeOfAReservationThatDoesNotExist() throws JSONException {
 
         putBookingRequest.updateBookingToken(500, postAuthRequest.getToken())
                 .then()
@@ -95,9 +97,9 @@ public class PutBookingTest extends BaseTest  {
 
     }
 
-    private int buscaIdBooking(){
+    private int buscaIdBooking() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
-        return  getBookingRequest.bookingReturnIds()
+        return getBookingRequest.bookingReturnIds()
                 .then()
                 .statusCode(200)
                 .extract()

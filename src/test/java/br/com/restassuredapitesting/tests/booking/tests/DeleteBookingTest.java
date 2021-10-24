@@ -27,27 +27,26 @@ public class DeleteBookingTest extends BaseTest {
     @Test
     @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, AcceptanceTest.class})
-    @DisplayName("Deletar uma reserva com sucesso")
-    public void deletaUmaReservaEspecifica(){
+    @DisplayName("Deletar uma reserva específica com sucesso")
+    public void deleteASpecificReservation() {
         int primeiroId = getBookingRequest.bookingReturnIds()
                 .then()
                 .statusCode(200)
                 .extract()
                 .path("[1].bookingid");
-        System.out.println(primeiroId);
 
-        deleteBookingRequest.bookingDeletedById(primeiroId,postAuthRequest.getToken())
+        deleteBookingRequest.bookingDeletedById(primeiroId, postAuthRequest.getToken())
                 .then()
                 .statusCode(201);
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, E2eTests.class})
-    @DisplayName("Deletar uma reserva com sucesso")
-    public void tentarExcluirReservaQueNaoExiste(){
+    @DisplayName("Deletar uma reserva que não existe")
+    public void tryToDeleteReservationThatDoesntExist() {
 
-        deleteBookingRequest.bookingDeletedById(100,postAuthRequest.getToken())
+        deleteBookingRequest.bookingDeletedById(100, postAuthRequest.getToken())
                 .then()
                 .statusCode(405);
     }
@@ -56,7 +55,7 @@ public class DeleteBookingTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, E2eTests.class})
     @DisplayName("Deletar uma reserva com sucesso")
-    public void tentarExcluirReservaSemAutenticacao(){
+    public void tryToDeleteReservationWithoutAuthentication() {
 
         deleteBookingRequest.bookingDeletedByIdNoAuthentication(8)
                 .then()

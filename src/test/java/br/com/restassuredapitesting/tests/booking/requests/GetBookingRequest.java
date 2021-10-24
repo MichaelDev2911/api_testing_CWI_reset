@@ -66,7 +66,7 @@ public class GetBookingRequest {
 
     @Step("Retorna Id da Busca Pelo primeiro nome,checkin,checkout ")
     public Response bookingReturnIdsByFirstNameAndCheckoutAndCheckout(String firstname
-            ,String checkin
+            , String checkin
             , String checkout) {
         return given()
                 .header("Accept", "application/json")
