@@ -20,8 +20,8 @@ String auth = "Basic YWRtaW46cGFzc3dvcmQxMjM=";
                 .header("Cookie",token)
                 .when()
                 .body(BookingPayloads.payloadValidBooking().toString())
-                .put("booking/"+ id);
-    }
+            .put("booking/"+ id);
+}
 
     @Step("Atualiza uma reserva específica com o parâmetro Basic auth")
     public Response updateBookingBasicAuth(int id) throws JSONException {
@@ -29,6 +29,15 @@ String auth = "Basic YWRtaW46cGFzc3dvcmQxMjM=";
                 .header("Content-Type","application/json")
                 .header("Accept","application/json")
                 .header("Authorization",auth)
+                .when()
+                .body(BookingPayloads.payloadValidBooking().toString())
+                .put("booking/"+ id);
+    }
+    @Step("Atualiza uma reserva específica sem o parâmetro token")
+    public Response updateBookingWithoutToken(int id) throws JSONException {
+        return  given()
+                .header("Content-Type","application/json")
+                .header("Accept","application/json")
                 .when()
                 .body(BookingPayloads.payloadValidBooking().toString())
                 .put("booking/"+ id);

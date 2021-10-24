@@ -15,4 +15,12 @@ public class DeleteBookingRequest  {
                 .when()
                 .delete("booking/" +id);
     }
+
+    @Step("Excluir uma reserva sem autenticação")
+    public Response  bookingDeletedByIdNoAuthentication(int id){
+        return given()
+                .header("Content-Type","application/json")
+                .when()
+                .delete("booking/" + id);
+    }
 }

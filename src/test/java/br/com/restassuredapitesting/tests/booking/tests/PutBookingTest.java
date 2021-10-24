@@ -27,7 +27,7 @@ public class PutBookingTest extends BaseTest  {
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class,AcceptanceTest.class})
-    @DisplayName("Alterar uma reserva somente utilizando o token")
+    @DisplayName("Alterar uma reserva, utilizando o token")
     public void validarAlteracaoDeUmaReservaUtilizandoToken() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()
                 .then()
@@ -39,14 +39,12 @@ public class PutBookingTest extends BaseTest  {
                 .then()
                 .statusCode(200)
                 .body("size()", Matchers.greaterThan(0));
-
-
     }
 
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
-    @DisplayName("Alterar uma reserva somente utilizando o Autorização Basic auth")
+    @DisplayName("Alterar uma reserva, utilizando o Autorização Basic auth")
     public void validarAlteracaoDeUmaReservaUtilizandoBasicAuth() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()
                 .then()
@@ -60,6 +58,50 @@ public class PutBookingTest extends BaseTest  {
                 .body("size()", Matchers.greaterThan(0));
 
 
+    }
+
+    @Test
+    @Severity(SeverityLevel.NORMAL)
+    @Category({AllTests.class,AcceptanceTest.class})
+    @DisplayName("Alterar uma reserva , sem o token")
+    public void validarAlteracaoDeUmaReservaSemToken() throws JSONException {
+
+        putBookingRequest.updateBookingWithoutToken(buscaIdBooking())
+                .then()
+                .statusCode(403);
+
+    }
+
+    @Test
+    @Severity(SeverityLevel.NORMAL)
+    @Category({AllTests.class,AcceptanceTest.class})
+    @DisplayName("Alterar uma reserva, utilizando o token errado")
+    public void validarAlteracaoDeUmaReservaUtilizandoTokenWrong() throws JSONException {
+
+        putBookingRequest.updateBookingToken(buscaIdBooking(), "esseVaiDarErro")
+                .then()
+                .statusCode(403);
+    }
+
+    @Test
+    @Severity(SeverityLevel.NORMAL)
+    @Category({AllTests.class,AcceptanceTest.class})
+    @DisplayName("Alterar uma reserva caso id não exista")
+    public void validarAlteracaoDeUmaReservaQueNaoExiste() throws JSONException {
+
+        putBookingRequest.updateBookingToken(500, postAuthRequest.getToken())
+                .then()
+                .statusCode(405);
+
+    }
+
+    private int buscaIdBooking(){
+        GetBookingRequest getBookingRequest = new GetBookingRequest();
+        return  getBookingRequest.bookingReturnIds()
+                .then()
+                .statusCode(200)
+                .extract()
+                .path("[0].bookingid");
     }
 }
 

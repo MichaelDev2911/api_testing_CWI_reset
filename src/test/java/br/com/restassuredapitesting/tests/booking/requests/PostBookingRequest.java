@@ -17,4 +17,28 @@ public class PostBookingRequest {
                 .body(BookingPayloads.payloadValidBooking().toString())
                 .post("booking");
     }
+
+    public Response createInvalidBooking(){
+        return given()
+                .header("Content-Type","application/json")
+                .when()
+                .body(BookingPayloads.payloadInvalidBooking().toString())
+                .post("booking");
+    }
+    public Response createBookingWithAdditionalParameters(){
+        return given()
+                .header("Content-Type","application/json")
+                .when()
+                .body(BookingPayloads.payloadBookingWIthAdditionalParameters().toString())
+                .post("booking");
+    }
+
+    public Response createBookingWithHeaderWrong(){
+        return given()
+                .header("Content-Type","application/json")
+                .header("Accept","application")
+                .when()
+                .body(BookingPayloads.payloadValidBooking().toString())
+                .post("booking");
+    }
 }
