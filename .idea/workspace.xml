@@ -4,6 +4,7 @@
     <list default="true" id="ffdde5ca-686d-491a-8c8d-288cf3b213cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1575">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2662">
-              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+            <state relative-caret-position="-2499">
+              <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
+            <state relative-caret-position="251">
               <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="375">
+              <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,10 +186,10 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PostBookingRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/tests/GetPingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/auth/tests/PostAuthTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
       </list>
     </option>
   </component>
@@ -506,7 +507,7 @@
       <workItem from="1635099253350" duration="2110000" />
       <workItem from="1635101440759" duration="14000" />
       <workItem from="1635113550697" duration="1260000" />
-      <workItem from="1635198068242" duration="1170000" />
+      <workItem from="1635198068242" duration="3195000" />
     </task>
     <task id="LOCAL-00001" summary="E2eTests">
       <created>1635090501617</created>
@@ -551,7 +552,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82734000" />
+    <option name="totallyTimeSpent" value="84759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -861,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/requests/PostBookingRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -885,16 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -928,10 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2662">
-          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+        <state relative-caret-position="251">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -940,8 +921,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

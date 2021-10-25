@@ -61,6 +61,11 @@ public class PostBookingTest extends BaseTest {
                 .body("firstname", anything("Jim"));
     }
 
+    /**
+     * validatesReservationCreationAddMoreParameters
+     * não deve aceitar parâmetros além do estabelecido na request
+     * retorno 400 Bad request ou 405 Method not Allowed
+     */
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Category({AllTests.class, E2eTests.class, SecurityTests.class})

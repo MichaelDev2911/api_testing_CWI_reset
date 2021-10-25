@@ -27,7 +27,7 @@ public class PutBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o token")
     public void validatesChangeOfAReservationUsingToken() throws JSONException {
@@ -44,7 +44,7 @@ public class PutBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.BLOCKER)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o Autorização Basic auth")
     public void validatesChangeOfAReservationUsingBasicAuth() throws JSONException {
@@ -63,7 +63,7 @@ public class PutBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.CRITICAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva , sem o token")
     public void validatesChangeOfAReservationWithoutToken() throws JSONException {
@@ -75,7 +75,7 @@ public class PutBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.CRITICAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Alterar uma reserva, utilizando o token errado")
     public void validatesChangeOfAReservationWithWrongToken() throws JSONException {

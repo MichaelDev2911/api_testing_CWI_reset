@@ -22,7 +22,6 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static org.hamcrest.Matchers.*;
 
 @Feature("Feature de Retorno de Reservas")
-@Log
 public class GetBookingTest extends BaseTest {
 
     @Test
@@ -35,7 +34,7 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnIds()
                 .then()
                 .statusCode(200)
-                .body("size()", greaterThan(0));
+                .body("[0].bookingid", notNullValue());
     }
 
     @Test
@@ -67,11 +66,10 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnedByFirstName(firstname)
                 .then()
                 .statusCode(200)
-                .body("[0].bookingid", greaterThanOrEqualTo(1));
+                .body("[0].bookingid", notNullValue());
     }
-
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, E2eTests.class})
     @DisplayName("Visualizar erro de servidor 500 quando enviar filtro mal formatado")
     public void validateErrorByPoorlyFormattedFilter() {
@@ -85,11 +83,10 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnedByFirstName(fname)
                 .then()
                 .statusCode(500);
-        log.info("esperado 500 mais retorna 200.");
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Listar Ids de reservas pelo último nome")
     public void validatesReturnByLastName() {
@@ -107,7 +104,7 @@ public class GetBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Lista os Ids Buscando pela data de checkin")
     public void validateReturnOfAgeByCheckinDate() {
@@ -122,11 +119,10 @@ public class GetBookingTest extends BaseTest {
                 .then()
                 .statusCode(200)
                 .body("[0].bookingid", greaterThanOrEqualTo(1));
-
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Lista os Ids Buscando pela data de checkout")
     public void validatesReturnOfIdsByCheckoutDate() {
@@ -140,11 +136,11 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnIdsByCheckoutDate(checkoutDate)
                 .then()
                 .statusCode(200)
-                .body("[0].bookingid", greaterThanOrEqualTo(0));
+                .body("size()", greaterThanOrEqualTo(0));
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Lista os Ids Buscando pela data de checkout and checkout")
     public void validatesReturnIdsByCheckoutAndCheckoutDate() {
@@ -170,7 +166,7 @@ public class GetBookingTest extends BaseTest {
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Listar Ids de reservas pelo nome,checkin,checkout")
     public void validatesReturnOfIdsByNameAndCheckinAndCheckout() {
@@ -196,7 +192,7 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnIdsByFirstNameAndCheckoutAndCheckout(firstname, checkin, checkout)
                 .then()
                 .statusCode(200)
-                .body("[0].bookingid", greaterThanOrEqualTo(0));
+                .body("[0].bookingid", greaterThan(0));
 
     }
 
