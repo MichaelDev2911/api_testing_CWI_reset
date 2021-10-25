@@ -91,7 +91,7 @@ public class PutBookingTest extends BaseTest {
     @DisplayName("Alterar uma reserva caso id não exista")
     public void validatesChangeOfAReservationThatDoesNotExist() throws JSONException {
 
-        putBookingRequest.updateBookingToken(500, postAuthRequest.getToken())
+        putBookingRequest.updateBookingToken(100000, postAuthRequest.getToken())
                 .then()
                 .statusCode(405);
 
