@@ -11,7 +11,6 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.junit4.DisplayName;
-import lombok.extern.java.Log;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -46,8 +45,8 @@ public class GetBookingTest extends BaseTest {
         getBookingRequest.bookingReturnedById(10)
                 .then()
                 .statusCode(200)
-                .body("firstname", Matchers.anything(   "Jim"))
-                .body("lastname", Matchers.anything(   "Smith"))
+                .body("firstname", Matchers.anything("Jim"))
+                .body("lastname", Matchers.anything("Smith"))
                 .body("size()", greaterThanOrEqualTo(1));
     }
 
@@ -68,6 +67,7 @@ public class GetBookingTest extends BaseTest {
                 .statusCode(200)
                 .body("[0].bookingid", notNullValue());
     }
+
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, E2eTests.class})
@@ -139,6 +139,7 @@ public class GetBookingTest extends BaseTest {
                 .body("size()", greaterThanOrEqualTo(0));
     }
 
+
     @Test
     @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
@@ -160,9 +161,7 @@ public class GetBookingTest extends BaseTest {
 
         getBookingRequest.bookingReturnIdsByCheckoutAndCheckout(checkoutDate, checkoutDateTwo)
                 .then()
-                .statusCode(200)
-                .body("[0].bookingid", greaterThanOrEqualTo(0));
-
+                .statusCode(400);
     }
 
     @Test

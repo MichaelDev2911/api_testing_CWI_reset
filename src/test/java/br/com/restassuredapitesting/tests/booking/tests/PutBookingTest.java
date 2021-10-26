@@ -3,6 +3,7 @@ package br.com.restassuredapitesting.tests.booking.tests;
 import br.com.restassuredapitesting.base.BaseTest;
 import br.com.restassuredapitesting.suites.AcceptanceTest;
 import br.com.restassuredapitesting.suites.AllTests;
+import br.com.restassuredapitesting.suites.SecurityTests;
 import br.com.restassuredapitesting.tests.auth.requests.PostAuthRequest;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
 import br.com.restassuredapitesting.tests.booking.requests.PutBookingRequest;
@@ -64,7 +65,7 @@ public class PutBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class, SecurityTests.class})
     @DisplayName("Alterar uma reserva , sem o token")
     public void validatesChangeOfAReservationWithoutToken() throws JSONException {
 
@@ -76,7 +77,7 @@ public class PutBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.CRITICAL)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class, SecurityTests.class})
     @DisplayName("Alterar uma reserva, utilizando o token errado")
     public void validatesChangeOfAReservationWithWrongToken() throws JSONException {
 

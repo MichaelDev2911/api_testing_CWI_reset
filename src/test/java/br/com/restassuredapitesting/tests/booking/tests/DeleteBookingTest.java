@@ -4,6 +4,7 @@ import br.com.restassuredapitesting.base.BaseTest;
 import br.com.restassuredapitesting.suites.AcceptanceTest;
 import br.com.restassuredapitesting.suites.AllTests;
 import br.com.restassuredapitesting.suites.E2eTests;
+import br.com.restassuredapitesting.suites.SecurityTests;
 import br.com.restassuredapitesting.tests.auth.requests.PostAuthRequest;
 import br.com.restassuredapitesting.tests.booking.requests.DeleteBookingRequest;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
@@ -25,7 +26,7 @@ public class DeleteBookingTest extends BaseTest {
     GetBookingRequest getBookingRequest = new GetBookingRequest();
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.NORMAL)
     @Category({AllTests.class, AcceptanceTest.class})
     @DisplayName("Deletar uma reserva específica com sucesso")
     public void deleteASpecificReservation() {
@@ -48,12 +49,12 @@ public class DeleteBookingTest extends BaseTest {
 
         deleteBookingRequest.bookingDeletedById(100, postAuthRequest.getToken())
                 .then()
-                .statusCode(405);
+                .statusCode(404);
     }
 
     @Test
-    @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, E2eTests.class})
+    @Severity(SeverityLevel.CRITICAL)
+    @Category({AllTests.class, E2eTests.class, SecurityTests.class})
     @DisplayName("Deletar uma reserva sem autenticação")
     public void tryToDeleteReservationWithoutAuthentication() {
 

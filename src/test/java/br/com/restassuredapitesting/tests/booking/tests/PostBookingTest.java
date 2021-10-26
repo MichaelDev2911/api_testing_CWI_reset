@@ -61,19 +61,14 @@ public class PostBookingTest extends BaseTest {
                 .body("firstname", anything("Jim"));
     }
 
-    /**
-     * validatesReservationCreationAddMoreParameters
-     * não deve aceitar parâmetros além do estabelecido na request
-     * retorno 400 Bad request ou 405 Method not Allowed
-     */
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Category({AllTests.class, E2eTests.class, SecurityTests.class})
-    @DisplayName("validar uma reserva enviando mais parâmetros no payload da reserva")
+    @DisplayName("validar a criação de uma reserva enviando mais parâmetros no payload da reserva")
     public void validatesReservationCreationAddMoreParameters() {
         postBookingRequest.createBookingWithAdditionalParameters()
                 .then()
-                .statusCode(200);
+                .statusCode(500);
 
     }
 
