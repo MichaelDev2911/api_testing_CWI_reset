@@ -1,25 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: br.com.restassuredapitesting.runners.AllTests
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 54.069 s <<< FAILURE! - in br.com.restassuredapitesting.runners.AllTests
-validatesReturnIdsByCheckoutAndCheckoutDate(br.com.restassuredapitesting.tests.booking.tests.GetBookingTest)  Time elapsed: 3.993 s  <<< FAILURE!
+Tests run: 26, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 52.817 s <<< FAILURE! - in br.com.restassuredapitesting.runners.AllTests
+validatesReturnIdsByCheckoutAndCheckoutDate(br.com.restassuredapitesting.tests.booking.tests.GetBookingTest)  Time elapsed: 4.162 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
-	at br.com.restassuredapitesting.tests.booking.tests.GetBookingTest.validatesReturnIdsByCheckoutAndCheckoutDate(GetBookingTest.java:163)
+	at br.com.restassuredapitesting.tests.booking.tests.GetBookingTest.validatesReturnIdsByCheckoutAndCheckoutDate(GetBookingTest.java:164)
 
-validateErrorByPoorlyFormattedFilter(br.com.restassuredapitesting.tests.booking.tests.GetBookingTest)  Time elapsed: 2.364 s  <<< FAILURE!
+validateErrorByPoorlyFormattedFilter(br.com.restassuredapitesting.tests.booking.tests.GetBookingTest)  Time elapsed: 2.838 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
 
-	at br.com.restassuredapitesting.tests.booking.tests.GetBookingTest.validateErrorByPoorlyFormattedFilter(GetBookingTest.java:84)
+	at br.com.restassuredapitesting.tests.booking.tests.GetBookingTest.validateErrorByPoorlyFormattedFilter(GetBookingTest.java:85)
 
-tryToDeleteReservationThatDoesntExist(br.com.restassuredapitesting.tests.booking.tests.DeleteBookingTest)  Time elapsed: 1.582 s  <<< FAILURE!
+validatesReturnOfASpecificReservation(br.com.restassuredapitesting.tests.booking.tests.GetBookingTest)  Time elapsed: 0.849 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.GetBookingTest.validatesReturnOfASpecificReservation(GetBookingTest.java:47)
+
+validatesChangeOfAReservationThatDoesNotExist(br.com.restassuredapitesting.tests.booking.tests.PutBookingTest)  Time elapsed: 1.55 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <405>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.PutBookingTest.validatesChangeOfAReservationThatDoesNotExist(PutBookingTest.java:97)
+
+tryToDeleteReservationThatDoesntExist(br.com.restassuredapitesting.tests.booking.tests.DeleteBookingTest)  Time elapsed: 1.57 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <405>.
 
 	at br.com.restassuredapitesting.tests.booking.tests.DeleteBookingTest.tryToDeleteReservationThatDoesntExist(DeleteBookingTest.java:52)
+
+validatesReservationCreationAddMoreParameters(br.com.restassuredapitesting.tests.booking.tests.PostBookingTest)  Time elapsed: 0.772 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.PostBookingTest.validatesReservationCreationAddMoreParameters(PostBookingTest.java:71)
 

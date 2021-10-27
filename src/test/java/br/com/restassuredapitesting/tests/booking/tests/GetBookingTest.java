@@ -42,11 +42,11 @@ public class GetBookingTest extends BaseTest {
     @DisplayName("Listar uma reserva específica por id")
     public void validatesReturnOfASpecificReservation() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();
-        getBookingRequest.bookingReturnedById(10)
+        getBookingRequest.bookingReturnedById(122)
                 .then()
                 .statusCode(200)
-                .body("firstname", Matchers.anything("Jim"))
-                .body("lastname", Matchers.anything("Smith"))
+                .body("firstname", Matchers.anything("Goku"))
+                .body("lastname", Matchers.anything("Son"))
                 .body("size()", greaterThanOrEqualTo(1));
     }
 

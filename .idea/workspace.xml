@@ -3,47 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="ffdde5ca-686d-491a-8c8d-288cf3b213cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/E2eTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/E2eTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/01bba925-5395-480c-9105-43bd50720a54-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0dc7c13e-8b0a-44a4-83ec-a9ba99055ced-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/30aa6f68-17d1-46e8-901a-5943f53c1a4b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4bcef901-598d-4a4d-98bb-96537aa4ceb9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5d65dc95-b553-4ce4-981b-521a138eca7a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/673dd298-2b41-4e0f-85f3-25fc9b67198e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/67dec983-bcc0-4a9b-a9b9-d1947335ed72-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6dbfcae0-9cea-4ecf-9266-d34ad6df8a37-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/749c14a3-c555-47d0-b52c-3011d1267e2d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/785e77b4-328a-42af-8500-25be5a8ed6cb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7c95c988-7acf-4c7a-829a-d4d0b3cbb174-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/87c68451-073d-45e7-b3f0-3e0132e968e2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8867f4cb-e869-45f2-a880-dd0972788f57-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/89c3872b-1cc9-403b-aa5a-7037f3783fca-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8d8dd58a-902a-48c3-b99f-1155716cd5a3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/922ebb3e-31fe-4c18-b705-a65333623115-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/996600e0-de14-4119-9117-7b756d5ba1ea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a95943a4-8b38-4250-a7d5-7456e4f99d30-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ada182ee-0bfe-440e-b8dc-5ff0e406d6da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b0f2df45-bcef-43fb-bf31-11e4a27ea4cd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b5ff5cbf-9015-412b-be09-23ccdbf73e0d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b9cc5594-c54e-4ab8-9450-13a0830bdcae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bcf73f60-151b-49b4-adc0-21f7d4d549c7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c91dd7d6-e1b0-4142-928e-6412c5eb6179-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e03d5d2d-4d13-4edf-bc52-7001a71a7bce-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f72355e3-95a3-41a7-ab4e-447599f5adee-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-10-24T15-32-59_243.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/02d8b7a6-3875-4f1a-b2dd-0df877a9ce5a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0380dd2f-5271-49e6-9932-51952bf6fd43-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/12bf2c7c-7622-4b5b-9b81-78029434d42a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1650fbe5-bd71-4cb1-b2ca-2fca1652cdf5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/17fbbc46-0e21-48b1-875b-8674fcdc53f0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1bef472d-ed27-4ce3-9cac-c6fb42d08495-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1f2bb840-9331-4273-85ba-092d5fbcc798-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/25f323c6-4ff9-4085-a166-7dabf5f38fd5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/269546e3-6a10-4b75-80e5-e18ad01edf34-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3008bd5a-d7ad-4831-8464-da5305a0ae2b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3793ee50-8859-4290-9581-16d5cac25711-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/395869ec-2e64-4144-9ea0-4ff411ff84d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4309a01b-aaf6-40a9-a366-35b3e6643442-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4d735e52-c36a-4d5d-9752-4b9eab20679a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5f45ee02-76be-4f77-9460-82d4be9464fc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/60174e4e-0d06-4d1a-b74d-7d1df6ad0a76-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/63d7fa92-cf1a-48f9-82e9-e1cb5bcf2012-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/77a5a4f3-6c64-4ed1-9c8c-01ebf063bd58-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a0b516f2-2ae0-47b3-8dfc-498e37c536df-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a6c94ab2-bef4-402b-9955-1fe6b08961f1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c2a4d2f0-ddba-40ca-baea-c249ae522862-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd1faf77-1deb-406e-84fc-9f7f1f31a185-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd55c53e-d49b-4a42-97a4-8c73cdd3b2c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d7430b19-39c3-4ac2-a487-49f8a6804f56-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e9c126a2-83f7-4ff0-b4fa-cecc4566ee73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/eb118176-2adf-443a-8e20-017856d9c14b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-10-26T19-13-34_566.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.restassuredapitesting.runners.AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.restassuredapitesting.runners.AllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.restassuredapitesting.runners.AllTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.restassuredapitesting.runners.AllTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/AcceptanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/AcceptanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/E2eTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/E2eTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/SecurityTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/runners/SecurityTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.class" afterDir="false" />
@@ -62,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1153">
-              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+            <state relative-caret-position="226">
+              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="770">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/tests/GetPingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="242">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="1144">
+              <caret line="66" column="99" selection-start-line="66" selection-start-column="99" selection-end-line="66" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/HealthcheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="176">
               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="154">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/SecurityTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/E2eTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java" />
       </list>
     </option>
@@ -240,9 +231,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -252,8 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,6 +279,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restassuredapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassuredapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -296,8 +318,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635287936402" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testes-integracao-unitarios" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635371486779" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -318,7 +340,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetBookingTest.validateSpecificReservationSearchSchema">
+  <component name="RunManager" selected="JUnit.GetBookingTest.validatesReturnOfASpecificReservation">
+    <configuration name="DeleteBookingTest.tryToDeleteReservationThatDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restassuredapitesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.restassuredapitesting.tests.booking.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
+      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.DeleteBookingTest" />
+      <option name="METHOD_NAME" value="tryToDeleteReservationThatDoesntExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetBookingTest.validateBookingListingSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
@@ -351,7 +389,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingTest.validatesReturnIdsByCheckoutAndCheckoutDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetBookingTest.validatesReturnOfASpecificReservation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
         <pattern>
@@ -361,13 +399,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
       <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
-      <option name="METHOD_NAME" value="validatesReturnIdsByCheckoutAndCheckoutDate" />
+      <option name="METHOD_NAME" value="validatesReturnOfASpecificReservation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookingTest.validatesReturnOfIdsByCheckoutDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PutBookingTest.validatesChangeOfAReservationThatDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restassuredapitesting" />
       <extension name="coverage">
         <pattern>
@@ -376,24 +414,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
-      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
-      <option name="METHOD_NAME" value="validatesReturnOfIdsByCheckoutDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetBookingTest.validatesReturnOfIdsByNameAndCheckinAndCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restassuredapitesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.restassuredapitesting.tests.booking.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.restassuredapitesting.tests.booking.tests" />
-      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.GetBookingTest" />
-      <option name="METHOD_NAME" value="validatesReturnOfIdsByNameAndCheckinAndCheckout" />
+      <option name="MAIN_CLASS_NAME" value="br.com.restassuredapitesting.tests.booking.tests.PutBookingTest" />
+      <option name="METHOD_NAME" value="validatesChangeOfAReservationThatDoesNotExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -587,6 +609,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.GetBookingTest.validateBookingListingSchema" />
+      <item itemvalue="JUnit.GetBookingTest.validateSpecificReservationSearchSchema" />
+      <item itemvalue="JUnit.DeleteBookingTest.tryToDeleteReservationThatDoesntExist" />
+      <item itemvalue="JUnit.PutBookingTest.validatesChangeOfAReservationThatDoesNotExist" />
       <item itemvalue="Maven.Relatório" />
       <item itemvalue="Maven.AllTests" />
       <item itemvalue="Maven.ContractTeste" />
@@ -594,19 +620,15 @@
       <item itemvalue="Maven.E2eTests" />
       <item itemvalue="Maven.SecurityTests" />
       <item itemvalue="Maven.SmokeTests" />
-      <item itemvalue="JUnit.GetBookingTest.validatesReturnOfIdsByCheckoutDate" />
-      <item itemvalue="JUnit.GetBookingTest.validatesReturnIdsByCheckoutAndCheckoutDate" />
-      <item itemvalue="JUnit.GetBookingTest.validatesReturnOfIdsByNameAndCheckinAndCheckout" />
-      <item itemvalue="JUnit.GetBookingTest.validateBookingListingSchema" />
-      <item itemvalue="JUnit.GetBookingTest.validateSpecificReservationSearchSchema" />
+      <item itemvalue="JUnit.GetBookingTest.validatesReturnOfASpecificReservation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetBookingTest.validatesReturnOfASpecificReservation" />
+        <item itemvalue="JUnit.PutBookingTest.validatesChangeOfAReservationThatDoesNotExist" />
+        <item itemvalue="JUnit.DeleteBookingTest.tryToDeleteReservationThatDoesntExist" />
         <item itemvalue="JUnit.GetBookingTest.validateSpecificReservationSearchSchema" />
         <item itemvalue="JUnit.GetBookingTest.validateBookingListingSchema" />
-        <item itemvalue="JUnit.GetBookingTest.validatesReturnOfIdsByNameAndCheckinAndCheckout" />
-        <item itemvalue="JUnit.GetBookingTest.validatesReturnIdsByCheckoutAndCheckoutDate" />
-        <item itemvalue="JUnit.GetBookingTest.validatesReturnOfIdsByCheckoutDate" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +651,10 @@
       <workItem from="1635101440759" duration="14000" />
       <workItem from="1635113550697" duration="1260000" />
       <workItem from="1635198068242" duration="3781000" />
-      <workItem from="1635283622950" duration="4274000" />
+      <workItem from="1635283622950" duration="6268000" />
+      <workItem from="1635369073280" duration="666000" />
+      <workItem from="1635369779395" duration="499000" />
+      <workItem from="1635370391758" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="E2eTests">
       <created>1635090501617</created>
@@ -642,18 +667,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetBookingTest_validatesReturnOfASpecificReservation - 2021.10.26 at 20h 23m 59s.xml">
-      <configuration name="GetBookingTest.validatesReturnOfASpecificReservation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetBookingTest_validIdReturnByFirstName - 2021.10.26 at 20h 24m 18s.xml">
-      <configuration name="GetBookingTest.validIdReturnByFirstName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetBookingTest_validateErrorByPoorlyFormattedFilter - 2021.10.26 at 20h 24m 35s.xml">
-      <configuration name="GetBookingTest.validateErrorByPoorlyFormattedFilter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetBookingTest_validatesReturnByLastName - 2021.10.26 at 20h 26m 16s.xml">
-      <configuration name="GetBookingTest.validatesReturnByLastName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetBookingTest_validateReturnOfAgeByCheckinDate - 2021.10.26 at 20h 26m 32s.xml">
       <configuration name="GetBookingTest.validateReturnOfAgeByCheckinDate" configurationId="JUnit" />
     </history-entry>
@@ -672,14 +685,27 @@
     <history-entry file="GetBookingTest_validateSpecificReservationSearchSchema - 2021.10.26 at 20h 29m 38s.xml">
       <configuration name="GetBookingTest.validateSpecificReservationSearchSchema" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeleteBookingTest_tryToDeleteReservationThatDoesntExist - 2021.10.27 at 19h 24m 56s.xml">
+      <configuration name="DeleteBookingTest.tryToDeleteReservationThatDoesntExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PutBookingTest_validatesChangeOfAReservationThatDoesNotExist - 2021.10.27 at 19h 26m 55s.xml">
+      <configuration name="PutBookingTest.validatesChangeOfAReservationThatDoesNotExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetBookingTest_validatesReturnOfASpecificReservation - 2021.10.27 at 19h 34m 24s.xml">
+      <configuration name="GetBookingTest.validatesReturnOfASpecificReservation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetBookingTest_validatesReturnOfASpecificReservation - 2021.10.27 at 19h 36m 51s.xml">
+      <configuration name="GetBookingTest.validatesReturnOfASpecificReservation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89619000" />
+    <option name="totallyTimeSpent" value="93784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32829046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3441755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -688,7 +714,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.67903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67580646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1015,10 +1041,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/ping/tests/GetPingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="242">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1032,26 +1075,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/HealthcheckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="1144">
+          <caret line="66" column="99" selection-start-line="66" selection-start-column="99" selection-end-line="66" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/suites/AcceptanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/HealthcheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/AcceptanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="176">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1061,18 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/runners/ContractTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/DeleteBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1081,18 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/GetBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PostBookingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1101,8 +1127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/restassuredapitesting/tests/booking/tests/PutBookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1153">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

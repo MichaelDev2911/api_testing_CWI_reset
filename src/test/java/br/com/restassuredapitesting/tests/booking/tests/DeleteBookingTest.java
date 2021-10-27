@@ -47,7 +47,7 @@ public class DeleteBookingTest extends BaseTest {
     @DisplayName("Deletar uma reserva que não existe")
     public void tryToDeleteReservationThatDoesntExist() {
 
-        deleteBookingRequest.bookingDeletedById(100, postAuthRequest.getToken())
+        deleteBookingRequest.bookingDeletedById(1, postAuthRequest.getToken())
                 .then()
                 .statusCode(404);
     }
