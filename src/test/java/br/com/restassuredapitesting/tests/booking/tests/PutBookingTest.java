@@ -4,6 +4,7 @@ import br.com.restassuredapitesting.base.BaseTest;
 import br.com.restassuredapitesting.suites.AcceptanceTest;
 import br.com.restassuredapitesting.suites.AllTests;
 import br.com.restassuredapitesting.suites.SecurityTests;
+import br.com.restassuredapitesting.suites.SmokeTests;
 import br.com.restassuredapitesting.tests.auth.requests.PostAuthRequest;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
 import br.com.restassuredapitesting.tests.booking.requests.PutBookingRequest;
@@ -29,7 +30,7 @@ public class PutBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class,SmokeTests.class})
     @DisplayName("Alterar uma reserva, utilizando o token")
     public void validatesChangeOfAReservationUsingToken() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()
@@ -46,7 +47,7 @@ public class PutBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class, SmokeTests.class})
     @DisplayName("Alterar uma reserva, utilizando o Autorização Basic auth")
     public void validatesChangeOfAReservationUsingBasicAuth() throws JSONException {
         int primeiroId = getBookingRequest.bookingReturnIds()

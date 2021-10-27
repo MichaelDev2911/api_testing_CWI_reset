@@ -1,10 +1,7 @@
 package br.com.restassuredapitesting.tests.booking.tests;
 
 import br.com.restassuredapitesting.base.BaseTest;
-import br.com.restassuredapitesting.suites.AcceptanceTest;
-import br.com.restassuredapitesting.suites.AllTests;
-import br.com.restassuredapitesting.suites.ContractTests;
-import br.com.restassuredapitesting.suites.E2eTests;
+import br.com.restassuredapitesting.suites.*;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
 import br.com.restassuredapitesting.utils.Utils;
 import io.qameta.allure.Feature;
@@ -38,7 +35,7 @@ public class GetBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class, SmokeTests.class})
     @DisplayName("Listar uma reserva específica por id")
     public void validatesReturnOfASpecificReservation() {
         GetBookingRequest getBookingRequest = new GetBookingRequest();

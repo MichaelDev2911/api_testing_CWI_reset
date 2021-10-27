@@ -1,10 +1,7 @@
 package br.com.restassuredapitesting.tests.booking.tests;
 
 import br.com.restassuredapitesting.base.BaseTest;
-import br.com.restassuredapitesting.suites.AcceptanceTest;
-import br.com.restassuredapitesting.suites.AllTests;
-import br.com.restassuredapitesting.suites.E2eTests;
-import br.com.restassuredapitesting.suites.SecurityTests;
+import br.com.restassuredapitesting.suites.*;
 import br.com.restassuredapitesting.tests.auth.requests.PostAuthRequest;
 import br.com.restassuredapitesting.tests.booking.requests.DeleteBookingRequest;
 import br.com.restassuredapitesting.tests.booking.requests.GetBookingRequest;
@@ -27,7 +24,7 @@ public class DeleteBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.NORMAL)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class, SmokeTests.class})
     @DisplayName("Deletar uma reserva específica com sucesso")
     public void deleteASpecificReservation() {
         int primeiroId = getBookingRequest.bookingReturnIds()

@@ -1,10 +1,7 @@
 package br.com.restassuredapitesting.tests.booking.tests;
 
 import br.com.restassuredapitesting.base.BaseTest;
-import br.com.restassuredapitesting.suites.AcceptanceTest;
-import br.com.restassuredapitesting.suites.AllTests;
-import br.com.restassuredapitesting.suites.E2eTests;
-import br.com.restassuredapitesting.suites.SecurityTests;
+import br.com.restassuredapitesting.suites.*;
 import br.com.restassuredapitesting.tests.booking.requests.PostBookingRequest;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
@@ -23,7 +20,7 @@ public class PostBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, AcceptanceTest.class})
+    @Category({AllTests.class, AcceptanceTest.class,SmokeTests.class})
     @DisplayName("criar uma Nova Reserva")
     public void validationSuccessfulReservationCreation() {
         postBookingRequest.createBooking()
@@ -46,7 +43,7 @@ public class PostBookingTest extends BaseTest {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
-    @Category({AllTests.class, E2eTests.class})
+    @Category({AllTests.class, E2eTests.class, SmokeTests.class})
     @DisplayName("criar Reservas em sequência")
     public void validateSuccessfulCreationOfMultipleReservations() {
         postBookingRequest.createBooking()
